@@ -8,5 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ad_attribution_background_color">#FFD54F</color>
+    <color name="ad_button_color">#2979FF</color>
 
 </resources>

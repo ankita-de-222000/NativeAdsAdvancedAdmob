@@ -4,7 +4,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;
 
-public abstract  class AdUnifiedListening extends AdListener implements UnifiedNativeAd.OnUnifiedNativeAdLoadedListener {
+public abstract class AdUnifiedListening extends AdListener implements UnifiedNativeAd.OnUnifiedNativeAdLoadedListener {
 
 
     private AdLoader adLoader;
@@ -16,4 +16,5 @@ public abstract  class AdUnifiedListening extends AdListener implements UnifiedN
     public void setAdLoader(AdLoader adLoader) {
         this.adLoader = adLoader;
     }
+
 }
